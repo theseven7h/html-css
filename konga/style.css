@@ -17,7 +17,25 @@
     align-items: center;
 }
 
-img {
+.header_container .header_services img {
     height: 21px;
 }
+
+.header_container .logo_header{
+    display: flex;
+    align-items: center;
+    height:60px;
+    background-color:#f50294; 
+}
+
+.header_container .logo_header img {
+    height: 35px;
+    margin: 20px;
+}
+
+.header_container .logo_header .menu {
+    background-color: black;
+}
+
+
 
