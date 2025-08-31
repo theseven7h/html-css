@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    font-family: Cairo, sans-serif;
+    margin:50px;
+    background-color: #f5f5f5;
+    /* width: 100%; */
+    border-style: none solid none solid;
+    border-color: rgb(172, 165, 165);
+    border-width: 1.7px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding-bottom: 30px;
+    border-bottom: 1.7px;
+    border-color: rgb(172, 165, 165);
+    border-bottom-style: solid;
+}
+
+header .help_everyone {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: #2995e3;
+    gap: 15px;
+    padding-right: 140px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+header .operations {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+    padding-right: 270px;
+    /* font-size: 13px; */
+}
+
+header .signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 13px; */
+    height: 40px;
+    width: 120px;
+    border: 1.7px;
+    border-color: rgb(172, 165, 165);
+    border-style: solid;
+    cursor: pointer;
+}
+
+header .operations div:hover {
+    font-weight: 800;
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+.two_people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.first_writing {
+    padding-right: 170px;
+}
+
+.first_writing span {
+    margin-right: 7px;
+}
+
+.two_people .writings .first_writing .writing_top {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.two_people .writings .first_writing .writing_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.first_writing #black {
+    color: black;
+}
+.first_writing #blue {
+    color: #2294f2;
+}
+
+.two_people .people img {
+    height: 400px;
+}
+
+.second_writing {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.buttons .get_started #top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2294f2;
+    height: 40px;
+    width: 120px;
+}
+
+.buttons .get_started #bottom {
+    /*border: ;*/
+}
+
+.buttons .watch_story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.play_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6EEFF;
+    border-radius: 150px;
+    height: 32px;
+    width: 32px;
+}
+
+.play_button img {
+    height: 35px;
+    padding-left: 5px;
+}
+
+.aboutUsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-right: 200px;
+}
+
+.sunImage {
+    position: relative;
+    /* margin-left: 100px;
+    margin-top: 100px; */
+}
+
+.aboutUsHeader h1 {
+    font-size: 40px;
+    /* position: absolute; */
+    
+}
+
+.aboutUsSection p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.aboutUsSection .tentImage {
+    margin-left: 750px;
+}
+
+.ourServices {
+    padding: 30px;
+}
+
+.headText h1 {
+    color: #2294f2;
+    font-size: 40px;
+}
+
+.headText p {
+    font-size: 19px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftText h1 {
+    font-size: 28px;
+}
+.leftText p {
+    font-size: 19px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.content #familyImage img {
+    height: 375px;
+}
+.aboutThisButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2294f2;
+    height: 40px;
+    width: 150px;
+    font-size: 19.45px;
+}
+.helpingTheElderly {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 170px;
+}
+.helpingTheElderly #oldMan img {
+    height: 375px;
+}
+.helpingText h1 {
+    font-size: 28px;
+}
+.helpingText p {
+    font-size: 19px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.buyingFood {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    gap: 70px;
+}
+.buyingText h1 {
+    font-size: 28px;
+}
+.buyingText p {
+    font-size: 19px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.buyingFood #manLuggage img {
+    height: 375px;
+}
+.specialHelp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 370px;
+}
+
+.specialHelp .background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 150px;
+    height: 300px;
+    width: 1100px;
+    background-color: #2995E2;
+    border-style: solid;
+    border-color: white;
+    border-width: 15px;
+}
+.background #homeImage img {
+    /* padding-top: ; */
+    margin-bottom: -110px;
+    height: 275px;
+}
+.getInTouch p {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 20px;
+}
+.getInTouch .getInTouchButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 18.51px;
+}
+.consultation {
+   padding: 40px;
+}
+.consultationBackground {
+    border: 1px;
+    border-style: solid;
+    border-color: #2995E2;
+    /* height:200px; */
+    padding: 40px;
+    margin: 60px 0;
+}
+.consultationHead {
+    padding-bottom: 40px;
+}
+.consultationHead h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.consultationHead p {
+    font-size: 19px;
+}
+.topDetails label, .bottomDetails label {
+    display: block;
+}
+.topDetails, .bottomDetails {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 38px;
+}
+.topDetails input {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999999;
+    height: 60px;
+    width: 525px;
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.topDetails input:hover {
+    border-color: #2995E2;
+}
+.bottomDetails select option {
+    font-family: Cairo, Sans-serif;;
+}
+.bottomDetails select:hover {
+    border-color: #2995E2;
+}
+.email input::placeholder {
+    font-family: Cairo, Sans-serif;
+}
+.email input:hover::placeholder {
+    color: #2995E2;
+}
+.bottomDetails select:hover {
+    color: #2995E2;
+}
+.topDetails label, .bottomDetails label {
+    font-size: 18px;
+}
+ .bottomDetails select {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999999;
+    height: 60px;
+    width: 525px;
+    margin-top: 15px;
+    /* box-sizing: border-box; */
+    padding: 0 15px;
+}
+#submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+#submit button {
+    font-family: Cairo, sans-serif;
+    color: white;
+    background-color: #2995e2;
+    border: none;
+    height: 65px;
+    width: 530px;
+    cursor: pointer;
+}
+#submit button:hover {
+    filter: brightness(90%);
+}
+footer {
+    padding: 40px 40px 20px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 430px;
+    border-bottom: 1.7px;
+    border-top: 1.7px;
+    border-color: rgb(172, 165, 165);
+    border-bottom-style: solid;
+    border-top-style: solid;
+
+    /* align-items: center; */
+}
+.footerLeft #logoHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footerLeft #logoHead h1 {
+    font-size: 22.3px;
+    font-weight: 700;
+    color: #2995E2;
+}
+.footerLeft #logoHead img {
+    height: 42px;
+}
+.footerLeft #black {
+    font-size: 19px;
+    font-weight: 700;
+    color: black;
+}
+.footerLeft #blue {
+    font-size: 19px;
+    font-weight: 700;
+    color: #2995E2;
+}
+.footerLeft #helpText {
+    padding-top: 15px;
+}
+.footerRight {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.footerRight h1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.footerRight li {
+    list-style: none;
+    font-size: 15px;
+}
+.footerRight div ul {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pageDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 480px;
+    padding: 20px 40px 40px 40px;
+}
+.pageDetails #cookies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pageDetails p {
+    font-size: 16px;
+    color: #878787;
+}
+.pageDetails h1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2995E2;
+}
